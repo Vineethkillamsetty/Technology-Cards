@@ -1,7 +1,7 @@
 import './index.css'
 
 const CardItem = props => {
-  const {CardItem} = props
+  const {cardDetails} = props
   const {title, description, imgUrl, className} = CardItem
   return (
     <l1 className={`${className}`}>
